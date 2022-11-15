@@ -1,0 +1,103 @@
+.navbar{
+    width: 100%;
+    top: 0;
+    z-index: 3;
+    
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+    color: white;
+    padding: 15px;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link{
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover{
+   background-color: rgba(64, 64, 173, 0.829) ;
+   transition: 0.9s;
+   border-radius: 10px;
+}
+.main{
+    position: relative;
+}
+.main img{
+    margin-top: 40px;
+}
+.main h1{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    position: absolute;
+    top: 200px;
+    left: 280px;
+}
+.card{
+    margin-top: 30px;
+}
+.motifshon{
+    margin: 100px 200px;
+}
+.contact{
+    margin-top: 100px;
+    display: flex;
+
+}
+.contact .div2{
+    margin-left: 100px;
+}
+
+.layout_padding2-top {
+    padding-top: 45px;
+  }
+  
+@media (max-width:900px){
+    .main h1{
+        z-index: 1;
+        position: absolute;
+        top: 10px;
+        left: 40px;
+    }
+    .contact{
+        margin-top: 100px;
+        display: block;
+    }
+    .contact .div2{
+        width: 300px;
+        margin-left: 0px;
+
+    }
+    .motifshon h3{
+        display: flex;
+    }
+    .main img{
+        margin-top: 60px;
+    }
+}
+@media (max-width:500px){
+    .main h1{
+        z-index: 1;
+        position: absolute;
+        top: 10px;
+        left: 40px;
+    }
+    .contact{
+        margin-top: 100px;
+        display: block;
+    }
+    .contact .div2{
+        width: 300px;
+        margin-left: 0px;
+
+    }
+    .motifshon h3{
+        display: flex;
+    }
+    .main img{
+        margin-top: 60px;
+    }
+}
