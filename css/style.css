@@ -6,7 +6,7 @@
 }
 
 .navbar .collapse .navbar-nav .nav-item .nav-link{
-    color: white;
+    color: black;
     padding: 15px;
 }
 .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link{
@@ -17,7 +17,7 @@
 }
 
 .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover{
-   background-color: rgba(64, 64, 173, 0.829) ;
+   background-color: rgba(64, 64, 173, 0.829);
    transition: 0.9s;
    border-radius: 10px;
 }
@@ -34,10 +34,22 @@
     margin-top: 20%;
     position: absolute;
     top: 200px;
-    left: 280px;
+    left: 380px;
+}
+.yaqOZd-lQAHbd{
+    color: #fff;
+    background-color: rgba(62, 62, 204, 0.829);
+    height: 250px;
 }
 .card{
     margin-top: 30px;
+}
+.card-title{
+    text-align: center;
+    color: rgba(7, 7, 228, 0.829);
+}
+.card-text{
+    color: rgba(7, 7, 228, 0.829);
 }
 .motifshon{
     margin: 100px 200px;
@@ -54,7 +66,10 @@
 .layout_padding2-top {
     padding-top: 45px;
   }
-  
+  .p1{
+    color: rgba(7, 7, 228, 0.829);
+
+  }
 @media (max-width:900px){
     .main h1{
         z-index: 1;
@@ -99,5 +114,10 @@
     }
     .main img{
         margin-top: 60px;
+    }
+    .yaqOZd-lQAHbd{
+        color: #fff;
+        background-color: rgba(62, 62, 204, 0.829);
+        height: 330px;
     }
 }
