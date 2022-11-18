@@ -156,10 +156,11 @@
         margin: 10px 0;
       }
       .iframe{
+       width: 300px;
        margin: 10px 0;
       }
       .div-img img{
-        width: 400px;
+        width: 350px;
         height: 300px;
         margin-top: 50px;
       }
